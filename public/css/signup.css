@@ -1,0 +1,70 @@
+.signup {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+    
+  }
+  :root {
+    --bg--color: #006778;
+    --primary--color: #fff;
+    --secondary--color: #a4ebf3;
+    --gray--color: #aaaaaa;
+  }
+  .signup-modal {
+    align-items: center;
+    margin:100px auto;
+    width: 320px;
+    background-color: var(--primary--color);
+    padding: 10px 30px 30px;
+    border-radius: 10px;
+  }
+  .signup-modal .close{
+      margin-top:15px;
+  }
+  .signup-modal .title {
+      text-align: center;
+  }
+  .signup-modal input {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 100%;
+    border: 1px solid #0093ab;
+    outline: none;
+    border-radius: 10px;
+  }
+  .signup-modal .btn {
+    position: relative;
+    left: 35%;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: var(--bg--color);
+    transition: all 0.2s linear;
+  }
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  .signup-modal input:focus {
+    border: 1px solid var(--bg--color);
+  }
+  .signup-modal input::placeholder {
+    color: black;
+  }
+  .signup-modal .login-link {
+    display: block;
+    transform: translateX(120px);
+    margin-bottom: 20px;
+    color: var(--bg--color);
+  }
+  .hide{
+      display:none;
+  }
+
+
+
+
+
